@@ -1,7 +1,3 @@
-// Lesson Task 2.4
-
-// 1. Declare and call a function that logs the string "What the func is this nonsense?"
-
 function logString() {
     console.log("What the func is this nonsense?");
 }
@@ -9,7 +5,7 @@ function logString() {
 logString();
 
 
-// 2. Create and call a function with two arguments, firstName and lastName. The function should log both the argument values with a space between them.
+
 
 function logName(firstName, lastName) {
     var fullName = firstName + " " + lastName;
@@ -17,6 +13,7 @@ function logName(firstName, lastName) {
 }
 
 logName("Eli", "Nygard");
+
 
 
 //3.
@@ -51,7 +48,7 @@ function addition(num1, num2, num3) {
 
 var paragraph = document.querySelector("p");
 
-var sum = addition(6, "1.5", "2");
+var sum = addition(6, "5.5", "2");
 
 console.log(sum);
 
@@ -64,7 +61,7 @@ var buttonHeading = document.querySelector(".heading");
 
 buttonHeading.onclick = function () {
     var heading = document.querySelector("h1");
-    heading.innerHTML += ": Updated";   //legger til uten å erstatte tekst som er der fra før
+    heading.innerHTML += ": Updated";   // += legger til uten å erstatte tekst som er der fra før
 }
 
 
@@ -82,22 +79,22 @@ buttonTitle.onclick = function() {
 
 //7.
 
-var redButton = document.querySelector(".red");
-var orangeButton = document.querySelector(".orange");
-var pinkButton = document.querySelector(".pink");
-var pageBackground = document.querySelector("body");
+// var redButton = document.querySelector(".red");
+// var orangeButton = document.querySelector(".orange");
+// var pinkButton = document.querySelector(".pink");
+// var pageBackground = document.querySelector("body");
 
-redButton.onclick = function() {
-    pageBackground.style.backgroundColor = "red";
-}
+// redButton.onclick = function() {
+//     pageBackground.style.backgroundColor = "red";
+// }
 
-orangeButton.onclick = function() {
-    pageBackground.style.backgroundColor = "orange";
-}
+// orangeButton.onclick = function() {
+//     pageBackground.style.backgroundColor = "orange";
+// }
 
-pinkButton.onclick = function() {
-    pageBackground.style.backgroundColor = "pink";
-}
+// pinkButton.onclick = function() {
+//     pageBackground.style.backgroundColor = "pink";
+// }
 
 // or
 
